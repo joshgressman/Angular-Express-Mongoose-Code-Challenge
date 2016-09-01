@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hero Tracker</title>
+    <link rel="stylesheet" href="/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script type="text/javascript" src="/vendor/angular.min.js"></script>
+    <script type="text/javascript" src="/vendor/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/clientapp.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/addHeroController.js"></script>
+    <script type="text/javascript" src="/scripts/controllers/displayHeroController.js"></script>
+</head>
+
+<body ng-app="heroTracker" ng-controller="AddHeroController">
+    <header ng-include="'/views/templates/nav.html'"></header>
+
+    <main ng-view></main>
+
+</body>
+</html>

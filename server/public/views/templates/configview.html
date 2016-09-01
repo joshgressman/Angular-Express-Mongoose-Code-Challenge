@@ -1,0 +1,36 @@
+<h2>Add A New Hero</h2>
+
+
+  <form>
+       <div>
+       <label for="alias">Hero Alias: </label>
+       <input type="text" name="alias" id="alias" ng-model="formalias" />
+     </div>
+     <div>
+       <label for="first_name">First Name: </label>
+       <input type="text" name="first_name" id="first_name" ng-model="formfirstname" />
+     </div>
+     <div>
+       <label for="last_name">Last Name: </label>
+       <input type="text" name="last_name" id="last_name" ng-model="formlastname" />
+     </div>
+     <div>
+       <label for="city">City: </label>
+       <input type="text" name="city" id="city" ng-model="formcity" />
+     </div>
+     <div>
+       <label for="power_name">Power: </label>
+       <select ng-model="data.singleSelect">
+      <option value="Invisibility">Invisibility</option>
+      <option value="Flight">Flight</option>
+      <option value="Super_Speed">Super Speed</option>
+      <option value="Heat_Vision">Heat Vision</option>
+      <option value="Super_Strength">Super Strength</option>
+      <option value="Accelerated_Healing">Accelerated Healing</option>
+      <option value="Power_Blast">Power Blast</option>
+      <option value="Animal_Affinity">Animal Affinity</option>
+      <option value="Billionare">Billionare</option>
+      </select>
+     </div>
+       <button class="btn btn-default" ng-click="submitNewHero()">Enter Hero</button>
+ </form>

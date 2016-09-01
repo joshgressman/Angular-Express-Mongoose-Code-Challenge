@@ -1,0 +1,21 @@
+{
+  "name": "ng-color-blocks",
+  "version": "1.0.0",
+  "description": "color block game in angular",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "nodemon server/app.js",
+    "start": "node server/app.js"
+  },
+  "author": "Kris Szafranski",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.5.10"
+  }
+}
